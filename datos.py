@@ -5,5 +5,5 @@ def datos():
     mis_datos.write(nombre)
     mis_datos = open("datos.txt","r")
     print(mis_datos.readlines())
-    print("bienvenido",mis_datos.readlines())
+    print("bienvenido")
 datos()
